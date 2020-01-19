@@ -13,6 +13,8 @@ aside strong {
    color: #333;
 }
 
+aside .cadastrar { color: #281E78 }
+
 aside form { 
    margin-top: 30px;
 }
@@ -52,7 +54,7 @@ aside form button[type=submit] {
    width: 100%;
    border: 0;
    margin-top: 30px;
-   background: #7d40e7;
+   background: #3B3FB6;
    border-radius: 2px;
    padding: 15px 20px;
    font-size: 16px;
@@ -63,5 +65,5 @@ aside form button[type=submit] {
 }
 
 aside form button[type=submit]:hover {
-   background: #6931ca;
+   background: #3B3FB6;
 }

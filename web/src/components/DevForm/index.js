@@ -33,10 +33,12 @@ function DevForm({ onSubmit }) {
       
       setGithubUsername('');
       setTechs('');
+      setLatitude('');
+      setLongitude('');
    }
 
    return (
-      <form onSubmit={ handleSubmit } >
+      <form autoComplete="off" onSubmit={ handleSubmit } >
             <div className="input-block">
               <label htmlFor="github_username">Usuário Github</label>
               <input name="github_username" id="github_username" required value={github_username} onChange={ e => setGithubUsername(e.target.value)} />
